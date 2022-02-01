@@ -12,7 +12,7 @@ The details of the competition: https://www.kaggle.com/c/opencv-pytorch-dl-cours
 # Summary
 Trained 50 epochs using modified ResNet152 network
 
-Modified the original ResNet152 single fully connected layer to 2 fully connected layers with 2 dropout layers
+Replaced the original single fully connected layer in ResNet152 to 2 fully connected layers with 2 dropout layers
 
 Unfreezed Layer 4 in the original ResNet152 network and the 2 newly added fully connected layers. Freezed all other layers (Transfer Learning)
 
